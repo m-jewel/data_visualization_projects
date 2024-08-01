@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  .chart-container {
+    width: 800px;
+    margin: auto;
+    text-align: center;
+  }
+  #title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .bar {
+    fill: steelblue;
+  }
+  .tick {
+    font-size: 12px;
+  }
+  #tooltip {
+    position: absolute;
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+    display: none;
+}
