@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+#treemap {
+    display: inline-block;
+  }
+
+#legend {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+  }
+
+#tooltip {
+    position: absolute;
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+    display: none;
+    pointer-events: none;
+}
